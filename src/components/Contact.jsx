@@ -13,11 +13,7 @@ const Contact = ({ translations }) => (
         <h2>{translations.contactTitle}</h2>
         <p>
           <strong>{translations.contactEmail} :</strong>{' '}
-          <a href="mailto:ilhamalami197@gmail.com">ilhamalami197@gmail.com</a>
-        </p>
-        <p>
-          <strong>{translations.contactPhone} :</strong>{' '}
-          <a href="tel:+212603928200">06 03 92 82 00</a>
+          <a href="mailto:ilhamalami197@gmail.com">ilhamsgallery123@gmail.com</a>
         </p>
         <p>
           <strong>{translations.contactLocation} :</strong> Fès, Maroc
