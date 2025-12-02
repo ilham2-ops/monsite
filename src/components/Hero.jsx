@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { gsap } from 'gsap';
 
 const heroImage = `${import.meta.env.BASE_URL}A.jpeg`;
-const heroImageAlt = `${import.meta.env.BASE_URL}hero-alt.png`;
+const heroImage = `${import.meta.env.BASE_URL}A.jpeg`;
 
 const Hero = ({ translations }) => {
   const badgeRef = useRef(null);
