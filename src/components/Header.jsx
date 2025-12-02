@@ -24,7 +24,7 @@ const Header = ({ translations, lang, onLangChange, theme, onThemeChange }) => {
       <div className="container header-inner">
         <div className="logo-wrapper">
           <span className="logo-icon">
-            <img src="/logo.png" alt="Logo Ilham" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Logo Ilham" />
           </span>
           
         </div>

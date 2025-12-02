@@ -37,7 +37,7 @@ export const translations = {
         excerpt: 'Application web Django pour analyser, filtrer et visualiser des CSV.',
         details: "Charge des fichiers, applique des filtres, génère des graphiques (histogrammes, corrélations) et exporte les résultats pour accélérer l'exploration.",
         tech: ['Python', 'Django', 'Pandas', 'Matplotlib'],
-        image: '/urdata.png',
+        image: `${import.meta.env.BASE_URL}urdata.png`,
       },
       {
         id: 'ml-models',
@@ -45,7 +45,7 @@ export const translations = {
         excerpt: 'Suite de modèles de classification et régression avec suivi des performances.',
         details: "Expérimentation d'algorithmes, gestion d'hyperparamètres et visualisation des métriques pour choisir le meilleur modèle.",
         tech: ['scikit-learn', 'TensorFlow', 'Logistic Regression','KNN – K-Nearest Neighbors','SVM – Support Vector Machine','Naive Bayes (Gaussian, Multinomial)','Decision Tree Classifier','Random Forest Classifier','Gradient Boosting Classifier','AdaBoost'],
-        image: '/machin.jpg',
+        image: `${import.meta.env.BASE_URL}machin.jpg`,
       },
       {
         id: 'object-detection',
@@ -53,7 +53,7 @@ export const translations = {
         excerpt: 'Caméra + capteurs pour détecter des objets et estimer leur distance en temps réel.',
         details: 'Pipeline vision + capteurs ultra-sons embarqué avec interface temps réel et alertes intelligentes.',
         tech: ['YOLOv8','MobileNetV2','mobilenet SSD', 'OpenCV', 'ESP32'],
-        image: '/detec.jpg',
+        image: `${import.meta.env.BASE_URL}detec.jpg`,
       },
       {
         id: 'bigdata-pipeline',
@@ -71,7 +71,7 @@ export const translations = {
 
 Ce pipeline combine batch + streaming et m’a permis d’intégrer plusieurs stacks ML/Big Data sur un cas métier complet.`,
         tech: ['PySpark', 'Kafka', 'Spark Streaming', 'MongoDB', 'PostgreSQL', 'Streamlit'],
-        image: '/prediction.png',
+        image: `${import.meta.env.BASE_URL}prediction.png`,
       },
       {
         id: 'ai-website',
@@ -79,7 +79,7 @@ Ce pipeline combine batch + streaming et m’a permis d’intégrer plusieurs st
         excerpt: 'Site orienté produit avec chatbot personnalisé pour guider les visiteurs.',
         details: 'Déploiement serverless, intégration API LLM et personnalisation dynamique du contenu.',
         tech: ['React','js'],
-        image: '/site.jpg',
+        image: `${import.meta.env.BASE_URL}site.jpg`,
       },
       {
         id: 'stock-app',
@@ -87,7 +87,7 @@ Ce pipeline combine batch + streaming et m’a permis d’intégrer plusieurs st
         excerpt: 'Suivi, prévisions et alertes de stock pour supply-chain.',
         details: 'Dashboards interactifs, prévision par séries temporelles et notifications automatiques.',
         tech: ['django', 'pandas','numpy','scikit-learn','matplotlib','seaborn'],
-        image: '/appgestion-de-stock.jpg',
+        image: `${import.meta.env.BASE_URL}appgestion-de-stock.jpg`,
       },
     ],
     contactTitle: "Contact",
@@ -141,7 +141,7 @@ I strive to transform datasets into meaningful insights, design high-performing 
         excerpt: "Django web app to analyze, filter and visualize CSV files.",
         details: "Load files, apply filters, generate charts (histograms, correlations), and export results for faster exploration.",
         tech: ['Python', 'Django', 'Pandas', 'Matplotlib'],
-        image: '/urdata.png',
+        image: `${import.meta.env.BASE_URL}urdata.png`,
       },
       {
         id: 'ml-models',
@@ -149,7 +149,7 @@ I strive to transform datasets into meaningful insights, design high-performing 
         excerpt: "Classification and regression model suite with performance tracking.",
         details: "Algorithm experimentation, hyperparameter tuning, and metric visualization to choose the best model.",
         tech: ['scikit-learn', 'TensorFlow', 'Logistic Regression','KNN – K-Nearest Neighbors','SVM – Support Vector Machine','Naive Bayes (Gaussian, Multinomial)','Decision Tree Classifier','Random Forest Classifier','Gradient Boosting Classifier','AdaBoost'],
-        image: '/machin.jpg',
+        image: `${import.meta.env.BASE_URL}machin.jpg`,
       },
       {
         id: 'object-detection',
@@ -157,7 +157,7 @@ I strive to transform datasets into meaningful insights, design high-performing 
         excerpt: "Camera + sensors for real-time object detection.",
         details: "Embedded vision + ultrasonic sensors pipeline with live interface and smart alerts.",
         tech: ['YOLOv8','MobileNetV2','mobilenet SSD', 'OpenCV', 'ESP32'],
-        image: '/detec.jpg',
+        image: `${import.meta.env.BASE_URL}detec.jpg`,
       },
       {
         id: 'bigdata-pipeline',
@@ -175,7 +175,7 @@ I strive to transform datasets into meaningful insights, design high-performing 
 
 This pipeline combines batch + streaming and allowed me to integrate multiple ML/Big Data stacks on a complete business case.`,
         tech: ['PySpark', 'Kafka', 'Spark Streaming', 'MongoDB', 'PostgreSQL', 'Streamlit'],
-        image: '/prediction.png',
+        image: `${import.meta.env.BASE_URL}prediction.png`,
       },
       {
         id: 'ai-website',
@@ -183,7 +183,7 @@ This pipeline combines batch + streaming and allowed me to integrate multiple ML
         excerpt: "Product website with custom chatbot for guiding visitors.",
         details: "Serverless deployment, LLM API integration, and dynamic content personalization.",
         tech: ['React','js'],
-        image: '/site.jpg',
+        image: `${import.meta.env.BASE_URL}site.jpg`,
       },
       {
         id: 'stock-app',
@@ -191,7 +191,7 @@ This pipeline combines batch + streaming and allowed me to integrate multiple ML
         excerpt: "Stock tracking, forecasting and alerts for supply chain.",
         details: "Interactive dashboards, time series forecasting and automated notifications.",
         tech: ['django', 'pandas','numpy','scikit-learn','matplotlib','seaborn'],
-        image: '/appgestion-de-stock.jpg',
+        image: `${import.meta.env.BASE_URL}appgestion-de-stock.jpg`,
       },
     ],
     contactTitle: "Contact",
@@ -245,7 +245,7 @@ Me esfuerzo por transformar conjuntos de datos en insights relevantes, diseñar 
         excerpt: "Aplicación Django para analizar, filtrar y visualizar CSV.",
         details: "Carga archivos, aplica filtros, genera gráficos (histogramas, correlaciones) y exporta resultados para acelerar la exploración.",
         tech: ['Python', 'Django', 'Pandas', 'Matplotlib'],
-        image: '/urdata.png',
+        image: `${import.meta.env.BASE_URL}urdata.png`,
       },
       {
         id: 'ml-models',
@@ -253,7 +253,7 @@ Me esfuerzo por transformar conjuntos de datos en insights relevantes, diseñar 
         excerpt: "Suite de modelos de clasificación y regresión con seguimiento de desempeño.",
         details: "Experimentación de algoritmos, ajuste de hiperparámetros y visualización de métricas para elegir el mejor modelo.",
         tech: ['scikit-learn', 'TensorFlow', 'Logistic Regression','KNN – K-Nearest Neighbors','SVM – Support Vector Machine','Naive Bayes (Gaussian, Multinomial)','Decision Tree Classifier','Random Forest Classifier','Gradient Boosting Classifier','AdaBoost'],
-        image: '/machin.jpg',
+        image: `${import.meta.env.BASE_URL}machin.jpg`,
       },
       {
         id: 'object-detection',
@@ -261,7 +261,7 @@ Me esfuerzo por transformar conjuntos de datos en insights relevantes, diseñar 
         excerpt: "Cámara + sensores para detección en tiempo real.",
         details: "Pipeline de visión + sensores ultrasónicos con interfaz en vivo y alertas inteligentes.",
         tech: ['YOLOv8','MobileNetV2','mobilenet SSD', 'OpenCV', 'ESP32'],
-        image: '/detec.jpg',
+        image: `${import.meta.env.BASE_URL}detec.jpg`,
       },
       {
         id: 'bigdata-pipeline',
@@ -279,7 +279,7 @@ Me esfuerzo por transformar conjuntos de datos en insights relevantes, diseñar 
 
 Este pipeline combina batch + streaming e integró múltiples stacks ML/Big Data en un caso completo.`,
         tech: ['PySpark', 'Kafka', 'Spark Streaming', 'MongoDB', 'PostgreSQL', 'Streamlit'],
-        image: '/prediction.png',
+        image: `${import.meta.env.BASE_URL}prediction.png`,
       },
       {
         id: 'ai-website',
@@ -287,7 +287,7 @@ Este pipeline combina batch + streaming e integró múltiples stacks ML/Big Data
         excerpt: "Sitio orientado a producto con chatbot personalizado para guiar a los visitantes.",
         details: "Despliegue serverless, integración API LLM y personalización dinámica del contenido.",
         tech: ['React','js'],
-        image: '/site.jpg',
+        image: `${import.meta.env.BASE_URL}site.jpg`,
       },
       {
         id: 'stock-app',
@@ -295,7 +295,7 @@ Este pipeline combina batch + streaming e integró múltiples stacks ML/Big Data
         excerpt: "Seguimiento, predicciones y alertas de stock para supply-chain.",
         details: "Dashboards interactivos, predicción por series temporales y notificaciones automáticas.",
         tech: ['django', 'pandas','numpy','scikit-learn','matplotlib','seaborn'],
-        image: '/appgestion-de-stock.jpg',
+        image: `${import.meta.env.BASE_URL}appgestion-de-stock.jpg`,
       },
     ],
     contactTitle: "Contacto",

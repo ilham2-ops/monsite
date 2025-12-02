@@ -6,7 +6,7 @@ export const projects = [
     details:
       "Charge des fichiers, applique des filtres, génère des graphiques (histogrammes, corrélations) et exporte les résultats pour accélérer l'exploration.",
     tech: ['Python', 'Django', 'Pandas', 'Matplotlib'],
-    image: '/urdata.png',
+    image: `${import.meta.env.BASE_URL}urdata.png`,
   },
   {
     id: 'ml-models',
@@ -16,7 +16,7 @@ export const projects = [
     details:
       "Expérimentation d'algorithmes, gestion d'hyperparamètres et visualisation des métriques pour choisir le meilleur modèle.",
     tech: ['scikit-learn', 'TensorFlow', 'Logistic Regression','KNN – K-Nearest Neighbors','SVM – Support Vector Machine','Naive Bayes (Gaussian, Multinomial)','Decision Tree Classifier','Random Forest Classifier','Gradient Boosting Classifier','AdaBoost'],
-    image: '/machin.jpg',
+    image: `${import.meta.env.BASE_URL}machin.jpg`,
   },
   {
     id: 'object-detection',
@@ -26,7 +26,7 @@ export const projects = [
     details:
       'Pipeline vision + capteurs ultra-sons embarqué avec interface temps réel et alertes intelligentes.',
     tech: ['YOLOv8','MobileNetV2','mobilenet SSD', 'OpenCV', 'ESP32'],
-    image: '/detec.jpg',
+    image: `${import.meta.env.BASE_URL}detec.jpg`,
   },
   {
     id: 'bigdata-pipeline',
@@ -44,7 +44,7 @@ export const projects = [
 
 Ce pipeline combine batch + streaming et m’a permis d’intégrer plusieurs stacks ML/Big Data sur un cas métier complet.`,
     tech: ['PySpark', 'Kafka', 'Spark Streaming', 'MongoDB', 'PostgreSQL', 'Streamlit'],
-    image: '/prediction.png',
+    image: `${import.meta.env.BASE_URL}prediction.png`,
   },
   {
     id: 'ai-website',
@@ -53,7 +53,7 @@ Ce pipeline combine batch + streaming et m’a permis d’intégrer plusieurs st
     details:
       'Déploiement serverless, intégration API LLM et personnalisation dynamique du contenu.',
     tech: ['React','js'],
-    image: '/site.jpg',
+    image: `${import.meta.env.BASE_URL}site.jpg`,
   },
   {
     id: 'stock-app',
@@ -62,7 +62,7 @@ Ce pipeline combine batch + streaming et m’a permis d’intégrer plusieurs st
     details:
       'Dashboards interactifs, prévision par séries temporelles et notifications automatiques.',
     tech: ['django', 'pandas','numpy','scikit-learn','matplotlib','seaborn'],
-    image: '/appgestion-de-stock.jpg',
+    image: `${import.meta.env.BASE_URL}appgestion-de-stock.jpg`,
   },
 ];
 

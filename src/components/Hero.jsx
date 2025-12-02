@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 import { motion, AnimatePresence } from 'framer-motion';
 import { gsap } from 'gsap';
 
-const heroImage = '/A.jpeg';
-const heroImageAlt = '/hero-alt.png';
+const heroImage = `${import.meta.env.BASE_URL}A.jpeg`;
+const heroImageAlt = `${import.meta.env.BASE_URL}hero-alt.png`;
 
 const Hero = ({ translations }) => {
   const badgeRef = useRef(null);
@@ -65,7 +65,7 @@ const Hero = ({ translations }) => {
             <a href="#projects" className="btn btn-secondary">
               {translations.secondaryCta}
             </a>
-            <a href="/CV.pdf" className="btn btn-secondary ghost" download>
+            <a href={`${import.meta.env.BASE_URL}CV.pdf`} className="btn btn-secondary ghost" download>
               {translations.resumeCta}
             </a>
             <button
